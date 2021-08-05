@@ -11,19 +11,11 @@ set(CMAKE_ENABLE_PROTOBUF_SECTION OFF)
 
 set(SOURCE_FILES
   main.cpp
-  test_module.cpp
-  lesson_1.cpp
-  lesson_2.cpp
-  lesson_3.cpp
-  lesson_4.cpp
-  lesson_5.cpp
-  lesson_6.cpp
-  lesson_7.cpp
+  test_mod.cpp
+  lesson-C-7.cpp
 )
 
 set(OTHER_FILES
-  db.txt
-  war_and_peace_pt1.txt
   protobuf/data.proto
 )
 
