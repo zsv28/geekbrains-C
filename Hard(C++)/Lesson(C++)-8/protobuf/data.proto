@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package pb;
+message FullName {
+	string surname = 1;
+	string name = 2;
+	optional string patronymic = 3;
+}
+
+message Student {
+	FullName fullname = 1;
+	repeated uint32 scores = 2;
+  double average_score = 3;
+}
+
+message StudentGroup {
+	repeated Student students = 1;
+}
